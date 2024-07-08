@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form Example</title>
+</head>
+<body>
+    <h1>Input Form</h1>
+    <form action="/submit" method="post">
+
+        <label for="name">Name:<sup>*</sup></label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        
+        <label for="Number">Whatsapp Number:<sup>*</sup></label><br>
+        <input type="number" id="nbr" name="nbr" required><br><br>
+        
+        <label for="birthdate">Birthdate:<sup>*</sup></label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city"><br><br>
+
+        <label for="e1age cat">First Event:<sup>*</sup></label><br>
+        <input type="radio" id="75+" name="e1age cat" value="75+" required>
+        <label for="75+">75+</label><br>
+        <input type="radio" id="90+" name="e1age cat" value="90+" required>
+        <label for="90+">90+</label><br> 
+        <input type="radio" id="105+" name="e1age cat" value="105+" required>
+        <label for="105+">105+</label><br>
+        <input type="radio" id="120+" name="e1age cat" value="120+" required>
+        <label for="120+">120+</label><br><br>
+
+        <label for="e1part name">Name of First Event Partner:<sup>*</sup></label>
+        <input type="text" id="e1part name" name="e1part name" required><br><br>
+
+        <label for="e2age cat">Second Event:</label><br>
+        <input type="radio" id="75+" name="e2age cat" value="75+">
+        <label for="75+">75+</label><br>
+        <input type="radio" id="90+" name="e2age cat" value="90+">
+        <label for="90+">90+</label><br>
+        <input type="radio" id="105+" name="e2age cat" value="105+">
+        <label for="105+">105+</label><br>
+        <input type="radio" id="120+" name="e2age cat" value="120+">
+        <label for="120+">120+</label><br><br>
+
+        <label for="e2part name">Name of Second Event Partner:</label>
+        <input type="text" id="e2part name" name="e2part name"><br><br>
+
+        <label for="Tshirt size">Indian Tree T Shirt Size:<sup>*</sup></label><br>
+        
+        <input type="radio" id="small" name="Tshirt size" value="small" required>
+        <label for="small">Small</label><br>
+        
+        <input type="radio" id="medium" name="Tshirt size" value="medium" required>
+        <label for="medium">Medium</label><br>
+       
+        <input type="radio" id="large" name="Tshirt size" value="large" required>
+        <label for="large">Large</label><br>
+        
+        <input type="radio" id="xlarge" name="Tshirt size" value="x large" required>
+        <label for="xlarge">X Large</label><br>
+         
+        <input type="radio" id="xxlarge" name="Tshirt size" value="xx large" required>
+        <label for="xxlarge">XX Large</label><br>
+         
+        <input type="radio" id="xxxlarge" name="Tshirt size" value="xxx large" required>
+        <label for="xxxlarge">XXX Large</label><br>
+        
+        <input type="radio" id="noneed" name="Tshirt size" value="noneed" required>
+        <label for="noneed">I don't need</label><br><br>
+
+        <label for="Short size">Indian Tree Shorts Size:<sup>*</sup></label><br>
+        
+        <input type="radio" id="small" name="Short size" value="small" required>
+        <label for="small">Small</label><br>
+        
+        <input type="radio" id="medium" name="Short size" value="medium" required>
+        <label for="medium">Medium</label><br>
+       
+        <input type="radio" id="large" name="Short size" value="large" required>
+        <label for="large">Large</label><br>
+        
+        <input type="radio" id="xlarge" name="Short size" value="x large" required>
+        <label for="xlarge">X Large</label><br>
+         
+        <input type="radio" id="xxlarge" name="Short size" value="xx large" required>
+        <label for="xxlarge">XX Large</label><br>
+         
+        <input type="radio" id="xxxlarge" name="Short size" value="xxx large" required>
+        <label for="xxxlarge">XXX Large</label><br>
+        
+        <input type="radio" id="noneed" name="Short size" value="noneed" required>
+        <label for="noneed">I don't need</label><br><br>
+
+        <label for="food">Gala Dinner Food Preference:<sup>*</sup></label><br>
+        <input  type="radio" id="noveg" name="food" value="nonveg" required>
+        <label for="nonveg">Non Vegetarian</label><br>
+        <input  type="radio" id="veg" name="food" value="veg" required>
+        <label for="veg">Vegetarian</label><br>
+        <input  type="radio" id="nofood" name="food" value="nofood" required>
+        <label for="nofood">I won't be there for Gala Dinner</label><br><br>
+
+        <label for="stay">Do you want the Tournament Management to arrange for your stay?<sup>*</sup></label><br>
+        <input type="radio" id="yes" name="stay" value="yes" required>
+        <label for="yes">YES</label><br>
+        <input type="radio" id="no" name="stay" value="no" required>
+        <label for="no">NO</label><br><br>
+        
+        <pre>Pls pay fee (4500 for 2 events, 3000 for 1 event). If you opted for stay, then please pay additional 1500 rupees.  
+The payment may kindly be made in favor of Uttaranchal Tennis Association (Ac.No.-77200200000230 IFSC-BARB0VJDEHR), Bank of Baroda, Dehradun.
+Also pls share the reference id or UTR number below*
+        </pre>
+        <img src="img/pay.jpeg"  height="400" ><br>
+        <input type="text" id="payid" name="payid" required><br><br>
+
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
